@@ -1,0 +1,128 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  background: url(bg-pattern-top-desktop.svg) top left no-repeat, url(bg-pattern-bottom-desktop.svg) bottom right no-repeat;
+  padding: 7%;
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+  body {
+    background: url(bg-pattern-top-mobile.svg) top left no-repeat, url(bg-pattern-bottom-mobile.svg) bottom right no-repeat;
+    text-align: center;
+  }
+}
+
+/* top container styles */
+.heading {
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  font-size: 50px;
+  line-height: 0.9;
+  width: 25rem;
+}
+
+.intro {
+  margin-top: 20px;
+  width: 25rem;
+}
+
+.rating-container {
+  margin-bottom: 20px;
+}
+
+.rating-2 {
+  top: 60px;
+  left: 100px;
+}
+
+.rating-3 {
+  top: 120px;
+  left: 200px;
+}
+
+.rating-1, .rating-2, .rating-3 {
+  position: absolute;
+  width: 23rem;
+  height: 50px;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  border-radius: 12px;
+}
+
+.rating {
+  text-align: center;
+  padding-top: 13px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:768px) {
+  .rating-1, .rating-2, .rating-3 {
+    position: static;
+    margin: auto auto 10px auto;
+  }
+}
+
+/* Testimonials styles */
+.testimonials {
+  margin-top: 70px;
+  position: relative;
+}
+
+.img {
+  float: left;
+  border-radius: 100%;
+  margin: auto 15px 10px auto;
+  width: 50px;
+}
+
+.card-title {
+  color: hsl(0, 0%, 100%)
+}
+
+.card-subtitle {
+  color: hsl(333, 80%, 67%);
+}
+
+.irene {
+  top: 10px;
+}
+
+.anne {
+  top: 20px;
+}
+
+.card {
+  width: 20rem;
+  position: absolute;
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+  font-weight: 500;
+  color: hsl(300, 24%, 96%);
+}
+
+.attribution {
+  margin-top:250px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:768px) {
+  .testimonials, .colton, .irene, .anne {
+    position: static;
+    margin: auto auto 20px auto;
+    text-align: center;
+  }
+  .card{
+    text-align: left;
+  }
+.attribution{
+  margin-top:10px;
+}
+
+}
